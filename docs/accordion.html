@@ -37,7 +37,7 @@
                 <div class="row cells3">
                     <div class="cell">
                         <h5>.accordion</h5>
-                        <div class="accordion" data-role="accordion" data-close-any="true">
+                        <div class="zdk-accordion" data-role="accordion" data-close-any="true">
                             <div class="frame">
                                 <div class="heading">Item 1</div>
                                 <div class="content">
@@ -61,7 +61,7 @@
 
                     <div class="cell">
                         <h5>.accordion with disabled item</h5>
-                        <div class="accordion" data-role="accordion">
+                        <div class="zdk-accordion" data-role="accordion">
                             <div class="frame">
                                 <div class="heading">Item 1</div>
                                 <div class="content">
@@ -85,7 +85,7 @@
 
                     <div class="cell">
                         <h5>.accordion with icon</h5>
-                        <div class="accordion" data-role="accordion">
+                        <div class="zdk-accordion" data-role="accordion">
                             <div class="frame">
                                 <div class="heading">Item 1<span class="mif-home icon"></span></div>
                                 <div class="content">
@@ -111,7 +111,7 @@
                 <div class="row">
                     <div class="cell">
                         <h5>.accordion & .large-heading</h5>
-                        <div class="accordion large-heading" data-role="accordion"
+                        <div class="zdk-accordion large-heading" data-role="accordion"
                              data-on-frame-open="return frame.attr('id') !== 'f3'"
                              data-on-frame-opened="alert('You open frame '+frame.find('.heading').text())"
                              data-on-frame-closed="alert('You close frame '+frame.find('.heading').text())"
@@ -149,7 +149,7 @@
         <div class="example" data-text="code">
             <h5>HTML</h5>
             <pre class="prettyprint linenums"><code>
-                &lt;div class="accordion"&gt;
+                &lt;div class="zdk-accordion"&gt;
                     &lt;div class="frame"&gt;
                         &lt;div class="heading"&gt;Frame heading&lt;/div&gt;
                         &lt;div class="content"&gt;Frame content&lt;/div&gt;
@@ -163,11 +163,11 @@
             </code></pre>
             <h5>Declarative style</h5>
             <pre class="prettyprint linenums"><code>
-                &lt;div class="accordion" data-role="accordion"&gt;...&lt;/div&gt;
+                &lt;div class="zdk-accordion" data-role="accordion"&gt;...&lt;/div&gt;
             </code></pre>
             <h5>Javascript style</h5>
             <pre class="prettyprint linenums"><code>
-                &lt;div class="accordion" id="accordion"&gt;...&lt;/div&gt;
+                &lt;div class="zdk-accordion" id="accordion"&gt;...&lt;/div&gt;
 
                 &lt;script&gt;
                     $(function(){

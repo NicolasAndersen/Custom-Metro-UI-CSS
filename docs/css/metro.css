@@ -10194,13 +10194,13 @@ input[type="submit"].link:active {
 .tabcontrol2 .frames .frame {
   background-color: #ffffff;
 }
-.accordion > .frame {
+.zdk-accordion > .frame {
   margin-top: 1px;
 }
-.accordion > .frame:first-child {
+.zdk-accordion > .frame:first-child {
   margin-top: 0;
 }
-.accordion > .frame > .heading {
+.zdk-accordion > .frame > .heading {
   display: block;
   padding: 8px 16px 8px 20px;
   background-color: #f6f6f6;
@@ -10218,7 +10218,7 @@ input[type="submit"].link:active {
           user-select: none;
   transition: all 0.3s ease;
 }
-.accordion > .frame > .heading:before {
+.zdk-accordion > .frame > .heading:before {
   position: absolute;
   display: block;
   left: 4px;
@@ -10233,10 +10233,10 @@ input[type="submit"].link:active {
           transform: rotate(-45deg);
   transition: all 0.3s ease;
 }
-.accordion > .frame > .heading:hover {
+.zdk-accordion > .frame > .heading:hover {
   background-color: #eeeeee;
 }
-.accordion > .frame > .heading .icon {
+.zdk-accordion > .frame > .heading .icon {
   position: absolute;
   right: 0;
   top: 0;
@@ -10246,7 +10246,7 @@ input[type="submit"].link:active {
   opacity: .6;
   color: #999999;
 }
-.accordion > .frame.active > .heading {
+.zdk-accordion > .frame.active > .heading {
   background-color: #1ba1e2;
   border-color: #1ba1e2;
   color: #ffffff;
@@ -10254,10 +10254,10 @@ input[type="submit"].link:active {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease;
 }
-.accordion > .frame.active > .heading .icon {
+.zdk-accordion > .frame.active > .heading .icon {
   color: #ffffff;
 }
-.accordion > .frame.active > .heading:before {
+.zdk-accordion > .frame.active > .heading:before {
   left: 8px;
   border-bottom-color: #ffffff;
   transition: all 0.3s ease;
@@ -10266,34 +10266,34 @@ input[type="submit"].link:active {
   -webkit-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
 }
-.accordion > .frame.active > .content {
+.zdk-accordion > .frame.active > .content {
   display: block;
 }
-.accordion > .frame > .content {
+.zdk-accordion > .frame > .content {
   padding: .625rem;
   display: none;
   background-color: #ffffff;
   z-index: 1;
 }
-.accordion > .frame.disabled > .heading {
+.zdk-accordion > .frame.disabled > .heading {
   cursor: default;
   background: #ffffff linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 40px 40px;
 }
-.accordion.large-heading > .frame > .heading {
+.zdk-accordion.large-heading > .frame > .heading {
   font-size: 2rem;
   line-height: 1.1;
   font-weight: 300;
   padding-left: 32px;
   text-shadow: none;
 }
-.accordion.large-heading > .frame > .heading:before {
+.zdk-accordion.large-heading > .frame > .heading:before {
   top: 10px;
   border-left: 12px solid transparent;
   border-top: 12px solid transparent;
   border-bottom: 12px solid black;
 }
-.accordion.large-heading > .frame.active > .heading:before {
+.zdk-accordion.large-heading > .frame.active > .heading:before {
   border-bottom-color: #ffffff;
 }
 .carousel {
