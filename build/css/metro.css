@@ -15235,7 +15235,7 @@ video::-webkit-media-controls-enclosure {
   outline: none;
   border-color: #1d1d1d;
 }
-.flexbox {
+.zdk-flexbox {
   display: -webkit-flex;
   display: flex;
 }
