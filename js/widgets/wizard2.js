@@ -75,10 +75,10 @@ $.widget( "metro.wizard2" , {
         var bar = $("<div/>").addClass('action-bar').appendTo(element);
         var btn_prev, btn_next, btn_help, btn_finish;
 
-        btn_help = $("<button/>").html(o.buttonLabels.help).addClass('button cycle-button medium-button wiz-btn-help place-left').appendTo(bar);
-        btn_finish = $("<button/>").html(o.buttonLabels.finish).addClass('button cycle-button medium-button wiz-btn-finish place-right').appendTo(bar);
-        btn_next = $("<button/>").html(o.buttonLabels.next).addClass('button cycle-button medium-button wiz-btn-next place-right').appendTo(bar);
-        btn_prev = $("<button/>").html(o.buttonLabels.prev).addClass('button cycle-button medium-button wiz-btn-prev place-right').appendTo(bar);
+        btn_help = $("<button/>").html(o.buttonLabels.help).addClass('zdk-button cycle-button medium-button wiz-btn-help place-left').appendTo(bar);
+        btn_finish = $("<button/>").html(o.buttonLabels.finish).addClass('zdk-button cycle-button medium-button wiz-btn-finish place-right').appendTo(bar);
+        btn_next = $("<button/>").html(o.buttonLabels.next).addClass('zdk-button cycle-button medium-button wiz-btn-next place-right').appendTo(bar);
+        btn_prev = $("<button/>").html(o.buttonLabels.prev).addClass('zdk-button cycle-button medium-button wiz-btn-prev place-right').appendTo(bar);
 
         btn_help.on('click', function(){
             if (typeof o.onHelp === 'function') {

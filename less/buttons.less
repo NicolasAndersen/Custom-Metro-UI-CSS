@@ -1,7 +1,7 @@
 @import (once) "vars";
 @import (once) "animations";
 
-.button {
+.zdk-button {
 	padding: 0 1rem;
 	height: 2.125rem;
 	text-align: center;
@@ -59,11 +59,11 @@
 	}
 }
 
-.button.button-shadow {
+.zdk-button.button-shadow {
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
 }
 
-.button {
+.zdk-button {
 	img {
 		height: .875rem;
 		vertical-align: middle;
@@ -72,7 +72,7 @@
 }
 
 .round-button, .cycle-button, .square-button {
-	.button;
+	.zdk-button;
 	width: 2.125rem;
 	min-width: 2.125rem;
 	padding: 0 ;
@@ -86,12 +86,12 @@
 	border-radius: 0;
 }
 
-a.button, a.round-button, a.square-button {
+a.zdk-button, a.round-button, a.square-button {
 	color: inherit;
 	&:hover {text-decoration: none;}
 }
 
-.button {
+.zdk-button {
 	&.loading-pulse {
 		position: relative;
 		padding: 0 1.325rem;
@@ -145,7 +145,7 @@ a.button, a.round-button, a.square-button {
 }
 
 .command-button {
-	.button;
+	.zdk-button;
 	height: auto;
 	text-align: left;
 	font-size: 1.325rem;
@@ -183,7 +183,7 @@ a.button, a.round-button, a.square-button {
 }
 
 .image-button {
-	.button;
+	.zdk-button;
 	border: 0;
 	padding-left: 2.75rem;
 	background-color: @grayLighter;
@@ -244,7 +244,7 @@ a.image-button {
 }
 
 .shortcut-button {
-	.button;
+	.zdk-button;
 	width: 5.75rem;
 	height: 5.75rem;
 	text-align: center;
@@ -281,7 +281,7 @@ a.shortcut-button {
 	padding-top: 10px;
 }
 
-.button {
+.zdk-button {
 	&.dropdown-toggle {
 		padding-right: 1.625rem;
 
@@ -372,7 +372,7 @@ a.shortcut-button {
 }
 
 .group-of-buttons {
-	.button, .toolbar-button {
+	.zdk-button, .toolbar-button {
 		&.active {
 			background-color: @lighterBlue;
 			color: @white;
@@ -390,7 +390,7 @@ a.shortcut-button {
 	vertical-align: middle;
 	.clear-float;
 
-	.button, .split {
+	.zdk-button, .split {
 		display: block;
 		float: left;
 	}
@@ -580,7 +580,7 @@ a.shortcut-button {
     }
 }
 
-.button {
+.zdk-button {
     &.primary {
         background: @linkColor;
         color: @white;
@@ -645,7 +645,7 @@ a.shortcut-button {
     }
 }
 a, span, div {
-	&.button, &.round-button, &.cycle-button, &.square-button  {
+	&.zdk-button, &.round-button, &.cycle-button, &.square-button  {
 		padding-top: .53125rem;
 
 		&.big-button {

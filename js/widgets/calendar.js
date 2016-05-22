@@ -121,8 +121,8 @@ $.widget("metro.calendar", {
 
         if (this.options.buttons) {
 
-            var buttonToday = o.buttonToday ? "<button class='button calendar-btn-today small-button success'>" + this.locales[o.locale].buttons[0] + "</button>" : "";
-            var buttonClear = o.buttonClear ? "<button class='button calendar-btn-clear small-button warning'>" + this.locales[o.locale].buttons[1] + "</button>" : "";
+            var buttonToday = o.buttonToday ? "<button class='zdk-button calendar-btn-today small-button success'>" + this.locales[o.locale].buttons[0] + "</button>" : "";
+            var buttonClear = o.buttonClear ? "<button class='zdk-button calendar-btn-clear small-button warning'>" + this.locales[o.locale].buttons[1] + "</button>" : "";
 
             tr = $("<div/>").addClass("calendar-row calendar-actions");
             td = $("<div/>").addClass("align-center").html(

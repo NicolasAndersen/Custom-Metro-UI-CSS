@@ -2398,8 +2398,8 @@ a.tag {
 .app-bar .app-bar-menu > li > a > .input-control.password input {
   border-color: transparent;
 }
-.app-bar .app-bar-menu > li > .button,
-.app-bar .app-bar-menu > li > a > .button {
+.app-bar .app-bar-menu > li > .zdk-button,
+.app-bar .app-bar-menu > li > a > .zdk-button {
   margin-top: -0.15rem;
 }
 .app-bar .app-bar-menu > li > .image-button,
@@ -2536,7 +2536,7 @@ a.tag {
 .app-bar .app-bar-element > .input-control.password input {
   border-color: transparent;
 }
-.app-bar .app-bar-element > .button {
+.app-bar .app-bar-element > .zdk-button {
   margin-top: -0.15rem;
 }
 .app-bar .app-bar-element > .image-button {
@@ -2658,7 +2658,7 @@ a.tag {
 .app-bar .app-bar-pullbutton > .input-control.password input {
   border-color: transparent;
 }
-.app-bar .app-bar-pullbutton > .button {
+.app-bar .app-bar-pullbutton > .zdk-button {
   margin-top: -0.15rem;
 }
 .app-bar .app-bar-pullbutton > .image-button {
@@ -2838,7 +2838,7 @@ a.tag {
   color: #ffffff;
 }
 .h-menu > li .input-control,
-.h-menu > li .button {
+.h-menu > li .zdk-button {
   margin-top: 10px;
 }
 .h-menu > li.active a {
@@ -2916,7 +2916,7 @@ a.tag {
   color: #ffffff;
 }
 .f-menu > li .input-control,
-.f-menu > li .button {
+.f-menu > li .zdk-button {
   margin-top: 10px;
 }
 .f-menu > li.active a {
@@ -3824,7 +3824,7 @@ a.tag {
   position: absolute;
   z-index: 1000;
 }
-.button {
+.zdk-button {
   padding: 0 1rem;
   height: 2.125rem;
   text-align: center;
@@ -3840,44 +3840,44 @@ a.tag {
   margin: .15625rem 0;
   position: relative;
 }
-.button.default {
+.zdk-button.default {
   background-color: #008287;
   color: #fff;
 }
-.button:hover {
+.zdk-button:hover {
   border-color: #787878;
 }
-.button:active {
+.zdk-button:active {
   background: #eeeeee;
   color: #262626;
   box-shadow: none;
 }
-.button:focus {
+.zdk-button:focus {
   outline: 0;
 }
-.button:disabled,
-.button.disabled {
+.zdk-button:disabled,
+.zdk-button.disabled {
   background-color: #eaeaea;
   color: #bebebe;
   cursor: default;
   border-color: transparent;
 }
-.button * {
+.zdk-button * {
   color: inherit;
 }
-.button *:hover {
+.zdk-button *:hover {
   color: inherit;
 }
-.button.rounded {
+.zdk-button.rounded {
   border-radius: .325rem;
 }
-.button > [class*=mif-] {
+.zdk-button > [class*=mif-] {
   vertical-align: middle;
 }
-.button.button-shadow {
+.zdk-button.button-shadow {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
 }
-.button img {
+.zdk-button img {
   height: .875rem;
   vertical-align: middle;
   margin: 0;
@@ -4134,21 +4134,21 @@ a.tag {
 .square-button {
   border-radius: 0;
 }
-a.button,
+a.zdk-button,
 a.round-button,
 a.square-button {
   color: inherit;
 }
-a.button:hover,
+a.zdk-button:hover,
 a.round-button:hover,
 a.square-button:hover {
   text-decoration: none;
 }
-.button.loading-pulse {
+.zdk-button.loading-pulse {
   position: relative;
   padding: 0 1.325rem;
 }
-.button.loading-pulse:before {
+.zdk-button.loading-pulse:before {
   position: absolute;
   content: "";
   left: 0;
@@ -4161,15 +4161,15 @@ a.square-button:hover {
   -webkit-animation: scaleout 1s infinite ease-in-out;
           animation: scaleout 1s infinite ease-in-out;
 }
-.button.loading-pulse.lighten:before {
+.zdk-button.loading-pulse.lighten:before {
   background-color: #fff;
 }
-.button.loading-cube {
+.zdk-button.loading-cube {
   position: relative;
   padding: 0 1.325rem;
 }
-.button.loading-cube:before,
-.button.loading-cube:after {
+.zdk-button.loading-cube:before,
+.zdk-button.loading-cube:after {
   content: "";
   background-color: #333;
   width: 5px;
@@ -4181,12 +4181,12 @@ a.square-button:hover {
   -webkit-animation: cubemove 1.8s infinite ease-in-out;
           animation: cubemove 1.8s infinite ease-in-out;
 }
-.button.loading-cube:after {
+.zdk-button.loading-cube:after {
   -webkit-animation-delay: -0.9s;
           animation-delay: -0.9s;
 }
-.button.loading-cube.lighten:before,
-.button.loading-cube.lighten:after {
+.zdk-button.loading-cube.lighten:before,
+.zdk-button.loading-cube.lighten:after {
   background-color: #fff;
 }
 .command-button {
@@ -4792,11 +4792,11 @@ a.image-button {
 a.shortcut-button {
   padding-top: 10px;
 }
-.button.dropdown-toggle {
+.zdk-button.dropdown-toggle {
   padding-right: 1.625rem;
 }
-.button.dropdown-toggle.drop-marker-light:before,
-.button.dropdown-toggle.drop-marker-light:after {
+.zdk-button.dropdown-toggle.drop-marker-light:before,
+.zdk-button.dropdown-toggle.drop-marker-light:after {
   background-color: #ffffff;
 }
 .nav-button {
@@ -4865,12 +4865,12 @@ a.shortcut-button {
 .nav-button.light span:after {
   background-color: #ffffff;
 }
-.group-of-buttons .button.active,
+.group-of-buttons .zdk-button.active,
 .group-of-buttons .toolbar-button.active {
   background-color: #00ccff;
   color: #ffffff;
 }
-.group-of-buttons .button:active,
+.group-of-buttons .zdk-button:active,
 .group-of-buttons .toolbar-button:active {
   background-color: #1ba1e2;
   color: #ffffff;
@@ -4892,8 +4892,8 @@ a.shortcut-button {
 .dropdown-button:after {
   clear: both;
 }
-.split-button .button,
-.dropdown-button .button,
+.split-button .zdk-button,
+.dropdown-button .zdk-button,
 .split-button .split,
 .dropdown-button .split {
   display: block;
@@ -5069,68 +5069,68 @@ a.shortcut-button {
   width: 3.125rem;
   height: 3.125rem;
 }
-.button.primary {
+.zdk-button.primary {
   background: #2086bf;
   color: #ffffff;
   border-color: #2086bf;
 }
-.button.primary:active {
+.zdk-button.primary:active {
   background: #1b6eae;
   color: #ffffff;
 }
-.button.success {
+.zdk-button.success {
   background: #60a917;
   color: #ffffff;
   border-color: #60a917;
 }
-.button.success:active {
+.zdk-button.success:active {
   background: #128023;
   color: #ffffff;
 }
-.button.danger,
-.button.alert {
+.zdk-button.danger,
+.zdk-button.alert {
   background: #ce352c;
   color: #ffffff;
   border-color: #ce352c;
 }
-.button.danger:active,
-.button.alert:active {
+.zdk-button.danger:active,
+.zdk-button.alert:active {
   background: #9a1616;
   color: #ffffff;
 }
-.button.info {
+.zdk-button.info {
   background: #59cde2;
   color: #ffffff;
   border-color: #59cde2;
 }
-.button.info:active {
+.zdk-button.info:active {
   background: #1ba1e2;
   color: #ffffff;
 }
-.button.warning {
+.zdk-button.warning {
   background: #fa6800;
   color: #ffffff;
   border-color: #fa6800;
 }
-.button.warning:active {
+.zdk-button.warning:active {
   background: #bf5a15;
   color: #ffffff;
 }
-.button.link {
+.zdk-button.link {
   background: transparent;
   color: #2086bf;
   border-color: transparent;
   text-decoration: underline;
 }
-.button.link:hover,
-.button.link:active {
+.zdk-button.link:hover,
+.zdk-button.link:active {
   background: transparent;
   color: #114968;
   border-color: transparent;
 }
-a.button,
-span.button,
-div.button,
+a.zdk-button,
+span.zdk-button,
+div.zdk-button,
 a.round-button,
 span.round-button,
 div.round-button,
@@ -5142,9 +5142,9 @@ span.square-button,
 div.square-button {
   padding-top: .53125rem;
 }
-a.button.big-button,
-span.button.big-button,
-div.button.big-button,
+a.zdk-button.big-button,
+span.zdk-button.big-button,
+div.zdk-button.big-button,
 a.round-button.big-button,
 span.round-button.big-button,
 div.round-button.big-button,
@@ -5421,8 +5421,8 @@ div.square-button.big-button {
 .toolbar-section.condensed:after {
   clear: both;
 }
-.toolbar-group.condensed .button,
-.toolbar-section.condensed .button,
+.toolbar-group.condensed .zdk-button,
+.toolbar-section.condensed .zdk-button,
 .toolbar-group.condensed .toolbar-button,
 .toolbar-section.condensed .toolbar-button {
   display: block;
@@ -5962,13 +5962,13 @@ div.square-button.big-button {
 .input-control.tel {
   width: 10.875rem;
 }
-.input-control.text .button,
-.input-control.select .button,
-.input-control.file .button,
-.input-control.password .button,
-.input-control.number .button,
-.input-control.email .button,
-.input-control.tel .button {
+.input-control.text .zdk-button,
+.input-control.select .zdk-button,
+.input-control.file .zdk-button,
+.input-control.password .zdk-button,
+.input-control.number .zdk-button,
+.input-control.email .zdk-button,
+.input-control.tel .zdk-button {
   position: absolute;
   top: 0;
   right: 0;
@@ -5994,13 +5994,13 @@ div.square-button.big-button {
   top: -1rem;
   font-size: .875rem;
 }
-.input-control.text > input:disabled + .button,
-.input-control.select > input:disabled + .button,
-.input-control.file > input:disabled + .button,
-.input-control.password > input:disabled + .button,
-.input-control.number > input:disabled + .button,
-.input-control.email > input:disabled + .button,
-.input-control.tel > input:disabled + .button {
+.input-control.text > input:disabled + .zdk-button,
+.input-control.select > input:disabled + .zdk-button,
+.input-control.file > input:disabled + .zdk-button,
+.input-control.password > input:disabled + .zdk-button,
+.input-control.number > input:disabled + .zdk-button,
+.input-control.email > input:disabled + .zdk-button,
+.input-control.tel > input:disabled + .zdk-button {
   display: none;
 }
 .input-control.text .prepend-icon,
@@ -6087,7 +6087,7 @@ div.square-button.big-button {
   font-size: 1.875rem;
   padding-left: 1.25rem ;
 }
-.input-control.big-input .button {
+.input-control.big-input .zdk-button {
   height: 3.25rem;
   top: 50%;
   margin-top: -1.625rem;
@@ -6208,7 +6208,7 @@ textarea.required {
   height: 0.0625rem;
 }
 .input-control.file input[type=file]:disabled ~ input[type=text],
-.input-control.file input[type=file]:disabled ~ .button {
+.input-control.file input[type=file]:disabled ~ .zdk-button {
   background-color: #EBEBE4;
 }
 .input-control.file:hover input[type=text],
@@ -6231,7 +6231,7 @@ textarea.required {
 .input-control .button-group:after {
   clear: both;
 }
-.input-control .button-group .button {
+.input-control .button-group .zdk-button {
   position: relative;
   float: left;
   margin: 0;
@@ -6246,13 +6246,13 @@ textarea.required {
   z-index: 100;
   font-size: .75rem;
 }
-.input-control > .button.helper-button {
+.input-control > .zdk-button.helper-button {
   margin: 2px 2px 0;
 }
-.input-control > .button-group > .button.helper-button {
+.input-control > .button-group > .zdk-button.helper-button {
   margin: 2px 0 ;
 }
-.input-control > .button-group > .button.helper-button:last-child {
+.input-control > .button-group > .zdk-button.helper-button:last-child {
   margin-right: 2px ;
 }
 .input-control input:focus ~ .helper-button,
@@ -8958,7 +8958,7 @@ input[type="submit"].link:active {
 .calendar .calendar-cell.year-cell {
   width: 23.4042625%;
 }
-.calendar .calendar-actions .button {
+.calendar .calendar-actions .zdk-button {
   margin: .15625rem;
 }
 .calendar .day-of-week {
@@ -9466,11 +9466,11 @@ input[type="submit"].link:active {
 .wizard2 .action-bar:after {
   clear: both;
 }
-.wizard2 .action-bar .button {
+.wizard2 .action-bar .zdk-button {
   margin: 0 .125rem;
   opacity: .6;
 }
-.wizard2 .action-bar .button:hover {
+.wizard2 .action-bar .zdk-button:hover {
   opacity: 1;
 }
 .countdown {

@@ -21,7 +21,7 @@
 	&.text, &.select, &.file, &.password, &.number, &.email, &.tel {
         width: 10.875rem;
 
-		.button {
+		.zdk-button {
 			position: absolute;
 			top: 0;
 			right: 0;
@@ -36,7 +36,7 @@
 			font-size: .875rem;
 		}
 
-		& > input:disabled + .button {
+		& > input:disabled + .zdk-button {
 			display: none;
 		}
 
@@ -115,7 +115,7 @@
 			padding-left: 1.25rem ;
 		}
 
-		.button {
+		.zdk-button {
 			height: 3.25rem;
 			top: 50%;
 			margin-top: -1.625rem;
@@ -229,7 +229,7 @@ input, select, textarea {
 			height: 0.0625rem;
 		}
 
-		input[type=file]:disabled ~ input[type=text], input[type=file]:disabled ~ .button {
+		input[type=file]:disabled ~ input[type=text], input[type=file]:disabled ~ .zdk-button {
 			background-color: #EBEBE4;
 		}
 
@@ -251,7 +251,7 @@ input, select, textarea {
 		z-index: 2;
 		.clear-float;
 
-		.button {
+		.zdk-button {
 			position: relative;
 			float: left;
 			margin: 0;
@@ -270,11 +270,11 @@ input, select, textarea {
 		font-size: .75rem;
 	}
 
-	& > .button.helper-button {
+	& > .zdk-button.helper-button {
 		margin: 2px 2px 0;
 	}
 
-	& > .button-group > .button.helper-button {
+	& > .button-group > .zdk-button.helper-button {
 		margin: 2px 0 ;
 		&:last-child {
 			margin-right: 2px ;
@@ -674,7 +674,7 @@ input, select, textarea {
 }
 
 input[type="button"], input[type="reset"], input[type="submit"] {
-	.button;
+	.zdk-button;
 	vertical-align: middle;
 }
 

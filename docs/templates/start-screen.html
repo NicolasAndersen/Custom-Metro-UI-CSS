@@ -36,7 +36,7 @@
             transform: scale(.8);
         }
 
-        #charmSettings .button {
+        #charmSettings .zdk-button {
             margin: 5px;
         }
 
@@ -169,7 +169,7 @@
                 return (css.match (/(^|\s)tile-area-scheme-\S+/g) || []).join(' ');
             }).addClass(current_tile_area_scheme);
 
-            $(".schemeButtons .button").hover(
+            $(".schemeButtons .zdk-button").hover(
                     function(){
                         var b = $(this);
                         var scheme = "tile-area-scheme-" +  b.data('scheme');
@@ -184,7 +184,7 @@
                     }
             );
 
-            $(".schemeButtons .button").on("click", function(){
+            $(".schemeButtons .zdk-button").on("click", function(){
                 var b = $(this);
                 var scheme = "tile-area-scheme-" +  b.data('scheme');
 
