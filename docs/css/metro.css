@@ -9473,20 +9473,20 @@ input[type="submit"].link:active {
 .wizard2 .action-bar .zdk-button:hover {
   opacity: 1;
 }
-.countdown {
+.zdk-countdown {
   display: inline-block;
   font-weight: 700;
   font-size: 1rem;
   margin: .1em 0 1.2em;
 }
-.countdown .part {
+.zdk-countdown .part {
   display: inline-block;
   position: relative;
 }
-.countdown .part.days:after,
-.countdown .part.hours:after,
-.countdown .part.minutes:after,
-.countdown .part.seconds:after {
+.zdk-countdown .part.days:after,
+.zdk-countdown .part.hours:after,
+.zdk-countdown .part.minutes:after,
+.zdk-countdown .part.seconds:after {
   position: absolute;
   content: attr(data-day-text);
   text-align: center;
@@ -9496,12 +9496,12 @@ input[type="submit"].link:active {
   font-size: .6em;
   color: inherit;
 }
-.countdown .part.disabled .digit {
+.zdk-countdown .part.disabled .digit {
   opacity: .3;
   box-shadow: none;
 }
-.countdown .digit,
-.countdown .divider {
+.zdk-countdown .digit,
+.zdk-countdown .divider {
   display: inline-block;
   padding: .3125em .625em;
   background-color: #1ba1e2;
@@ -9511,34 +9511,34 @@ input[type="submit"].link:active {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
   transition: all 0.5s ease;
 }
-.countdown .digit,
-.countdown .divider {
+.zdk-countdown .digit,
+.zdk-countdown .divider {
   margin-left: 4px;
 }
-.countdown .divider {
+.zdk-countdown .divider {
   padding: .125em .25em;
   color: #1d1d1d;
   background-color: transparent;
   box-shadow: none;
 }
-.countdown.tick .divider {
+.zdk-countdown.tick .divider {
   opacity: 0;
 }
-.countdown.labels-top {
+.zdk-countdown.labels-top {
   margin: 1.2em 0 .1em;
 }
-.countdown.labels-top .part.days:after,
-.countdown.labels-top .part.hours:after,
-.countdown.labels-top .part.minutes:after,
-.countdown.labels-top .part.seconds:after {
+.zdk-countdown.labels-top .part.days:after,
+.zdk-countdown.labels-top .part.hours:after,
+.zdk-countdown.labels-top .part.minutes:after,
+.zdk-countdown.labels-top .part.seconds:after {
   top: 0;
   left: 0;
   margin-top: -1.5em;
 }
-.countdown.rounded .part .digit {
+.zdk-countdown.rounded .part .digit {
   border-radius: .5em;
 }
-.countdown .digit.scaleIn {
+.zdk-countdown .digit.scaleIn {
   transition: all 0.5s ease;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
