@@ -24,10 +24,10 @@
         <h1><a href="index.html" class="nav-button transform"><span></span></a>&nbsp;Title</h1>
 
         <div class="example">
-            <button id="hinted_button" class="button primary" data-role="hint" data-hint="Initial hint">Hinted button</button>
-            <button class="button" onclick="setHintMessage('Hint 1')">Set hint 1</button>
-            <button class="button" onclick="setHintMessage('Hint 2')">Set hint 2</button>
-            <button class="button" onclick="setHintMessage('Hint 3')">Set hint 3</button>
+            <button id="hinted_button" class="zdk-button primary" data-role="hint" data-hint="Initial hint">Hinted button</button>
+            <button class="zdk-button" onclick="setHintMessage('Hint 1')">Set hint 1</button>
+            <button class="zdk-button" onclick="setHintMessage('Hint 2')">Set hint 2</button>
+            <button class="zdk-button" onclick="setHintMessage('Hint 3')">Set hint 3</button>
         </div>
 
         <script>
@@ -38,11 +38,11 @@
 
         <pre class="prettyprint linenums no-scroll"><code>
             &lt;button id="hinted_button"
-                class="button primary"
+                class="zdk-button primary"
                 data-role="hint"
                 data-hint="Initial hint"&gt;Hinted button&lt;/button&gt;
 
-            &lt;button class="button" onclick="setHintMessage('Hint 1')"&gt;Set hint 1&lt;/button&gt;
+            &lt;button class="zdk-button" onclick="setHintMessage('Hint 1')"&gt;Set hint 1&lt;/button&gt;
 
             &lt;script&gt;
             function setHintMessage(msg){

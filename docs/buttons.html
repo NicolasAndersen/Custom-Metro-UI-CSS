@@ -37,33 +37,33 @@
             With the Metro UI CSS you can easily create different types of buttons, stylized to Windows 8.
         </div>
         <p>
-            Button styles can be applied to anything with the .button class applied. However, typically you'll want to apply these to only <span class="tag">a</span> and <span class="tag">button</span> elements for the best rendering.
+            Button styles can be applied to anything with the .zdk-button class applied. However, typically you'll want to apply these to only <span class="tag">a</span> and <span class="tag">button</span> elements for the best rendering.
         </p>
 
         <h4>Push buttons</h4>
         <div class="example" data-text="example">
             <div class="margin10">
-                <button class="button">Default</button>
-                <button class="button" disabled>Disabled</button>
-                <a class="button">Anchor</a>
-                <div class="button">Div</div>
-                <span class="button">Span</span>
-                <button class="button rounded">Rounded</button>
-                <button class="button cycle-button">+</button>
-                <button class="button square-button">OK</button>
+                <button class="zdk-button">Default</button>
+                <button class="zdk-button" disabled>Disabled</button>
+                <a class="zdk-button">Anchor</a>
+                <div class="zdk-button">Div</div>
+                <span class="zdk-button">Span</span>
+                <button class="zdk-button rounded">Rounded</button>
+                <button class="zdk-button cycle-button">+</button>
+                <button class="zdk-button square-button">OK</button>
             </div>
         </div>
 
         <div class="example" data-text="code">
             <pre class="prettyprint linenums"><code>
-                &lt;button class="button"&gt;Caption&lt;/button&gt;
-                &lt;button class="button" disabled&gt;Caption&lt;/button&gt;
-                &lt;div class="button"&gt;Caption&lt;/div&gt;
-                &lt;a class="button"&gt;Caption&lt;/a&gt;
-                &lt;span class="button"&gt;Caption&lt;/span&gt;
-                &lt;button class="button rounded"&gt;Rounded&lt;/button&gt;
-                &lt;button class="button cycle-button"&gt;+&lt;/button&gt;
-                &lt;button class="button square-button"&gt;OK&lt;/button&gt;
+                &lt;button class="zdk-button"&gt;Caption&lt;/button&gt;
+                &lt;button class="zdk-button" disabled&gt;Caption&lt;/button&gt;
+                &lt;div class="zdk-button"&gt;Caption&lt;/div&gt;
+                &lt;a class="zdk-button"&gt;Caption&lt;/a&gt;
+                &lt;span class="zdk-button"&gt;Caption&lt;/span&gt;
+                &lt;button class="zdk-button rounded"&gt;Rounded&lt;/button&gt;
+                &lt;button class="zdk-button cycle-button"&gt;+&lt;/button&gt;
+                &lt;button class="zdk-button square-button"&gt;OK&lt;/button&gt;
             </code></pre>
         </div>
 
@@ -71,29 +71,29 @@
         <p class="text-small">support both: icon fonts and images</p>
         <div class="example" data-text="example">
             <div class="margin10">
-                <button class="button"><span class="mif-checkmark"></span> Font icon</button>
-                <button class="button"><img src="images/Checkmark.png"> Image</button>
+                <button class="zdk-button"><span class="mif-checkmark"></span> Font icon</button>
+                <button class="zdk-button"><img src="images/Checkmark.png"> Image</button>
             </div>
         </div>
 
         <div class="example" data-text="code">
             <pre class="prettyprint linenums"><code>
-                &lt;button class="button"&gt;&lt;span class="mif-checkmark"&gt;&lt;/span&gt; Primary&lt;/button&gt;
-                &lt;button class="button"&gt;&lt;img src="images/Checkmark.png"&gt; Primary&lt;/button&gt;
+                &lt;button class="zdk-button"&gt;&lt;span class="mif-checkmark"&gt;&lt;/span&gt; Primary&lt;/button&gt;
+                &lt;button class="zdk-button"&gt;&lt;img src="images/Checkmark.png"&gt; Primary&lt;/button&gt;
             </code></pre>
         </div>
 
         <h4>Any sizes</h4>
         <div class="example" data-text="example">
             <div class="margin10">
-                <button class="button mini-button">Mini</button>
-                <button class="button small-button">Small</button>
-                <button class="button">Default</button>
-                <button class="button large-button">Large</button>
-                <button class="button mini-button"><span class="mif-3d-rotation"></span> Mini</button>
-                <button class="button small-button"><span class="mif-3d-rotation"></span> Small</button>
-                <button class="button"><span class="mif-3d-rotation"></span> Button</button>
-                <button class="button large-button"><span class="mif-3d-rotation"></span> Large</button>
+                <button class="zdk-button mini-button">Mini</button>
+                <button class="zdk-button small-button">Small</button>
+                <button class="zdk-button">Default</button>
+                <button class="zdk-button large-button">Large</button>
+                <button class="zdk-button mini-button"><span class="mif-3d-rotation"></span> Mini</button>
+                <button class="zdk-button small-button"><span class="mif-3d-rotation"></span> Small</button>
+                <button class="zdk-button"><span class="mif-3d-rotation"></span> Button</button>
+                <button class="zdk-button large-button"><span class="mif-3d-rotation"></span> Large</button>
             </div>
             <div class="margin10">
                 <button class="square-button mini-button">M</button>
@@ -119,34 +119,34 @@
 
         <div class="example" data-text="code">
             <pre class="prettyprint linenums"><code>
-                &lt;button class="button mini-button"&gt;Caption&lt;/button&gt;
-                &lt;button class="button small-button"&gt;Caption&lt;/button&gt;
-                &lt;button class="button large-button"&gt;Caption&lt;/button&gt;
+                &lt;button class="zdk-button mini-button"&gt;Caption&lt;/button&gt;
+                &lt;button class="zdk-button small-button"&gt;Caption&lt;/button&gt;
+                &lt;button class="zdk-button large-button"&gt;Caption&lt;/button&gt;
             </code></pre>
         </div>
 
         <h4>Any colors (predefined and custom)</h4>
         <div class="example" data-text="example">
             <div class="margin10">
-                <button class="button primary">Primary</button>
-                <button class="button success">Success</button>
-                <button class="button info">Info</button>
-                <button class="button danger">Danger</button>
-                <button class="button warning">Warning</button>
-                <button class="button link">Link</button>
-                <button class="button bg-pink bg-active-darkPink fg-white">Custom</button>
+                <button class="zdk-button primary">Primary</button>
+                <button class="zdk-button success">Success</button>
+                <button class="zdk-button info">Info</button>
+                <button class="zdk-button danger">Danger</button>
+                <button class="zdk-button warning">Warning</button>
+                <button class="zdk-button link">Link</button>
+                <button class="zdk-button bg-pink bg-active-darkPink fg-white">Custom</button>
             </div>
         </div>
 
         <div class="example" data-text="code">
             <pre class="prettyprint linenums"><code>
-                &lt;button class="button primary"&gt;Primary&lt;/button&gt;
-                &lt;button class="button success"&gt;Success&lt;/button&gt;
-                &lt;button class="button info"&gt;Info&lt;/button&gt;
-                &lt;button class="button danger"&gt;Danger&lt;/button&gt;
-                &lt;button class="button warning"&gt;Warning&lt;/button&gt;
-                &lt;button class="button link"&gt;Link&lt;/button&gt;
-                &lt;button class="button bg-pink bg-active-darkPink fg-white"&gt;Custom&lt;/button&gt;
+                &lt;button class="zdk-button primary"&gt;Primary&lt;/button&gt;
+                &lt;button class="zdk-button success"&gt;Success&lt;/button&gt;
+                &lt;button class="zdk-button info"&gt;Info&lt;/button&gt;
+                &lt;button class="zdk-button danger"&gt;Danger&lt;/button&gt;
+                &lt;button class="zdk-button warning"&gt;Warning&lt;/button&gt;
+                &lt;button class="zdk-button link"&gt;Link&lt;/button&gt;
+                &lt;button class="zdk-button bg-pink bg-active-darkPink fg-white"&gt;Custom&lt;/button&gt;
             </code></pre>
         </div>
 
@@ -154,27 +154,27 @@
         <p class="text-small">with predefined classes</p>
         <div class="example" data-text="example">
             <div class="margin10">
-                <button class="button success block-shadow-success text-shadow">Button</button>
-                <button class="button warning block-shadow-warning text-shadow">Button</button>
-                <button class="button danger block-shadow-danger text-shadow">Button</button>
-                <button class="button info block-shadow-info text-shadow">Button</button>
-                <button class="button loading-pulse">Download NOW</button>
-                <button class="button loading-pulse lighten primary">Download NOW</button>
-                <button class="button loading-cube">Loading...</button>
-                <button class="button loading-cube lighten danger">Loading...</button>
+                <button class="zdk-button success block-shadow-success text-shadow">Button</button>
+                <button class="zdk-button warning block-shadow-warning text-shadow">Button</button>
+                <button class="zdk-button danger block-shadow-danger text-shadow">Button</button>
+                <button class="zdk-button info block-shadow-info text-shadow">Button</button>
+                <button class="zdk-button loading-pulse">Download NOW</button>
+                <button class="zdk-button loading-pulse lighten primary">Download NOW</button>
+                <button class="zdk-button loading-cube">Loading...</button>
+                <button class="zdk-button loading-cube lighten danger">Loading...</button>
             </div>
         </div>
 
         <div class="example" data-text="code">
             <pre class="prettyprint linenums"><code>
-                &lt;button class="button success block-shadow-success text-shadow"&gt;Button&lt;/button&gt;
-                &lt;button class="button warning block-shadow-warning text-shadow"&gt;Button&lt;/button&gt;
-                &lt;button class="button danger block-shadow-danger text-shadow"&gt;Button&lt;/button&gt;
-                &lt;button class="button info block-shadow-info text-shadow"&gt;Button&lt;/button&gt;
-                &lt;button class="button loading-pulse"&gt;Download NOW&lt;/button&gt;
-                &lt;button class="button loading-pulse lighten primary"&gt;Download NOW&lt;/button&gt;
-                &lt;button class="button loading-cube"&gt;Loading...&lt;/button&gt;
-                &lt;button class="button loading-cube lighten danger"&gt;Loading...&lt;/button&gt;
+                &lt;button class="zdk-button success block-shadow-success text-shadow"&gt;Button&lt;/button&gt;
+                &lt;button class="zdk-button warning block-shadow-warning text-shadow"&gt;Button&lt;/button&gt;
+                &lt;button class="zdk-button danger block-shadow-danger text-shadow"&gt;Button&lt;/button&gt;
+                &lt;button class="zdk-button info block-shadow-info text-shadow"&gt;Button&lt;/button&gt;
+                &lt;button class="zdk-button loading-pulse"&gt;Download NOW&lt;/button&gt;
+                &lt;button class="zdk-button loading-pulse lighten primary"&gt;Download NOW&lt;/button&gt;
+                &lt;button class="zdk-button loading-cube"&gt;Loading...&lt;/button&gt;
+                &lt;button class="zdk-button loading-cube lighten danger"&gt;Loading...&lt;/button&gt;
             </code></pre>
         </div>
 
@@ -397,7 +397,7 @@
         <div class="example" data-text="example">
             <div class="margin10">
                 <div class="dropdown-button">
-                    <button class="button dropdown-toggle">Menu</button>
+                    <button class="zdk-button dropdown-toggle">Menu</button>
                     <ul class="split-content d-menu" data-role="dropdown">
                         <li><a href="#">Reply</a></li>
                         <li><a href="#">Reply All</a></li>
@@ -405,7 +405,7 @@
                     </ul>
                 </div>
                 <div class="dropdown-button place-right">
-                    <button class="button dropdown-toggle">Menu</button>
+                    <button class="zdk-button dropdown-toggle">Menu</button>
                     <ul class="split-content d-menu place-right" data-role="dropdown">
                         <li><a href="#">Reply</a></li>
                         <li><a href="#">Reply All</a></li>
@@ -419,7 +419,7 @@
             <pre class="prettyprint linenums"><code>
                 &lt;!-- left --&gt;
                 &lt;div class="dropdown-button"&gt;
-                    &lt;button class="button dropdown-toggle"&gt;Menu&lt;/button&gt;
+                    &lt;button class="zdk-button dropdown-toggle"&gt;Menu&lt;/button&gt;
                     &lt;ul class="split-content d-menu" data-role="dropdown"&gt;
                         &lt;li&gt;&lt;a href="#"&gt;Reply&lt;/a&gt;&lt;/li&gt;
                         &lt;li&gt;&lt;a href="#"&gt;Reply All&lt;/a&gt;&lt;/li&gt;
@@ -429,7 +429,7 @@
 
                 &lt;!-- right --&gt;
                 &lt;div class="dropdown-button place-right"&gt;
-                    &lt;button class="button dropdown-toggle"&gt;Menu&lt;/button&gt;
+                    &lt;button class="zdk-button dropdown-toggle"&gt;Menu&lt;/button&gt;
                     &lt;ul class="split-content d-menu place-right" data-role="dropdown"&gt;
                         &lt;li&gt;&lt;a href="#"&gt;Reply&lt;/a&gt;&lt;/li&gt;
                         &lt;li&gt;&lt;a href="#"&gt;Reply All&lt;/a&gt;&lt;/li&gt;
@@ -443,7 +443,7 @@
         <div class="example" data-text="example">
             <div class="margin10">
                 <div class="split-button">
-                    <button class="button">Reply</button>
+                    <button class="zdk-button">Reply</button>
                     <button class="split dropdown-toggle"></button>
                     <ul class="split-content d-menu" data-role="dropdown">
                         <li><a href="#">Reply</a></li>
@@ -457,7 +457,7 @@
         <div class="example" data-text="code">
             <pre class="prettyprint linenums"><code>
                 &lt;div class="split-button"&gt;
-                    &lt;button class="button"&gt;Reply&lt;/button&gt;
+                    &lt;button class="zdk-button"&gt;Reply&lt;/button&gt;
                     &lt;button class="split dropdown-toggle"&gt;&lt;/button&gt;
                     &lt;ul class="split-content d-menu" data-role="dropdown"&gt;
                         &lt;li&gt;&lt;a href="#"&gt;Reply&lt;/a&gt;&lt;/li&gt;
