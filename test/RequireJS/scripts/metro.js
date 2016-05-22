@@ -3844,10 +3844,10 @@ $.widget( "metro.dialog" , {
 
     _createOverlay: function(){
         var that = this, element = this.element, o = this.options;
-        var overlay = $('body').find('.dialog-overlay');
+        var overlay = $('body').find('.zdk-dialog-overlay');
 
         if (overlay.length === 0) {
-            overlay = $("<div/>").addClass('dialog-overlay');
+            overlay = $("<div/>").addClass('zdk-dialog-overlay');
         }
 
         if (o.overlayColor) {
@@ -3866,7 +3866,7 @@ $.widget( "metro.dialog" , {
     _createDialog: function(){
         var that = this, element = this.element, o = this.options;
 
-        element.addClass('dialog');
+        element.addClass('zdk-dialog');
 
         if (o.type !== 'default') {
             element.addClass(o.type);
@@ -3965,7 +3965,7 @@ $.widget( "metro.dialog" , {
         clearInterval(o._interval);
 
         if (o.overlay) {
-            $('body').find('.dialog-overlay').remove();
+            $('body').find('.zdk-dialog-overlay').remove();
         }
 
         element.data('opened', false);

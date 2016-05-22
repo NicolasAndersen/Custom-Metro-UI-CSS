@@ -13556,7 +13556,7 @@ p [data-hint] {
 .preloader-cycle.color-style .cycle:after {
   border-top-color: #f9c922;
 }
-.dialog-overlay {
+.zdk-dialog-overlay {
   background-color: transparent;
   position: fixed;
   top: 0;
@@ -13567,7 +13567,7 @@ p [data-hint] {
   min-width: 100%;
   z-index: 1049;
 }
-.dialog {
+.zdk-dialog {
   position: fixed;
   display: block;
   width: auto;
@@ -13578,7 +13578,7 @@ p [data-hint] {
   z-index: 1050;
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
 }
-.dialog .dialog-close-button {
+.zdk-dialog .dialog-close-button {
   position: absolute;
   height: 1.5rem;
   width: 1.5rem;
@@ -13596,64 +13596,64 @@ p [data-hint] {
   top: .25rem;
   right: .25rem;
 }
-.dialog .dialog-close-button:hover {
+.zdk-dialog .dialog-close-button:hover {
   background-color: #cde6f7;
   color: #2a8dd4;
 }
-.dialog .dialog-close-button:hover:after {
+.zdk-dialog .dialog-close-button:hover:after {
   border-color: #2a8dd4;
 }
-.dialog .dialog-close-button:active {
+.zdk-dialog .dialog-close-button:active {
   background-color: #92c0e0;
   color: #ffffff;
 }
-.dialog .dialog-close-button:after {
+.zdk-dialog .dialog-close-button:after {
   border-color: #777777;
   content: '\D7';
   line-height: 1;
 }
-.dialog.success {
+.zdk-dialog.success {
   background-color: #60a917;
   color: #ffffff;
 }
-.dialog.success .dialog-close-button {
+.zdk-dialog.success .dialog-close-button {
   background-color: #7ad61d;
   color: #ffffff;
 }
-.dialog.success .dialog-close-button:active {
+.zdk-dialog.success .dialog-close-button:active {
   background-color: #128023;
 }
-.dialog.warning {
+.zdk-dialog.warning {
   background-color: #fa6800;
   color: #ffffff;
 }
-.dialog.warning .dialog-close-button {
+.zdk-dialog.warning .dialog-close-button {
   background-color: #ffc194;
   color: #ffffff;
 }
-.dialog.warning .dialog-close-button:active {
+.zdk-dialog.warning .dialog-close-button:active {
   background-color: #bf5a15;
 }
-.dialog.alert {
+.zdk-dialog.alert {
   background-color: #ce352c;
   color: #ffffff;
 }
-.dialog.alert .dialog-close-button {
+.zdk-dialog.alert .dialog-close-button {
   background-color: #da5a53;
   color: #ffffff;
 }
-.dialog.alert .dialog-close-button:active {
+.zdk-dialog.alert .dialog-close-button:active {
   background-color: #9a1616;
 }
-.dialog.info {
+.zdk-dialog.info {
   background-color: #1ba1e2;
   color: #ffffff;
 }
-.dialog.info .dialog-close-button {
+.zdk-dialog.info .dialog-close-button {
   background-color: #59cde2;
   color: #ffffff;
 }
-.dialog.info .dialog-close-button:active {
+.zdk-dialog.info .dialog-close-button:active {
   background-color: #1b6eae;
 }
 .streamer {
