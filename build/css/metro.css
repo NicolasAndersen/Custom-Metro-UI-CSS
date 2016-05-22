@@ -5766,7 +5766,7 @@ div.square-button.big-button {
   border-color: #75c7ee;
   color: #ffffff;
 }
-.breadcrumbs {
+.zdk-breadcrumbs {
   padding: 0;
   margin: 0;
   list-style: none inside none;
@@ -5774,15 +5774,15 @@ div.square-button.big-button {
   color: #999;
   padding: 1rem;
 }
-.breadcrumbs > li {
+.zdk-breadcrumbs > li {
   display: inline-block;
   color: inherit;
   margin: 0 1rem 0 0;
   position: relative;
   vertical-align: middle;
 }
-.breadcrumbs > li:before,
-.breadcrumbs > li:after {
+.zdk-breadcrumbs > li:before,
+.zdk-breadcrumbs > li:after {
   display: block;
   position: absolute;
   vertical-align: middle;
@@ -5796,37 +5796,37 @@ div.square-button.big-button {
   left: 100%;
   margin-left: .5rem;
 }
-.breadcrumbs > li:before {
+.zdk-breadcrumbs > li:before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   margin-top: -0.125rem;
 }
-.breadcrumbs > li:after {
+.zdk-breadcrumbs > li:after {
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   margin-top: .125rem;
 }
-.breadcrumbs > li > a {
+.zdk-breadcrumbs > li > a {
   color: inherit;
   display: inline-block;
   line-height: 1;
 }
-.breadcrumbs > li:last-child {
+.zdk-breadcrumbs > li:last-child {
   color: #1d1d1d;
   font-weight: bolder;
 }
-.breadcrumbs > li:last-child a {
+.zdk-breadcrumbs > li:last-child a {
   cursor: default;
 }
-.breadcrumbs > li:last-child:before,
-.breadcrumbs > li:last-child:after {
+.zdk-breadcrumbs > li:last-child:before,
+.zdk-breadcrumbs > li:last-child:after {
   background-color: transparent;
 }
-.breadcrumbs > li:hover {
+.zdk-breadcrumbs > li:hover {
   color: #1d1d1d;
 }
-.breadcrumbs img,
-.breadcrumbs .icon {
+.zdk-breadcrumbs img,
+.zdk-breadcrumbs .icon {
   display: inline-block;
   line-height: .8;
   height: 1rem;
@@ -5834,15 +5834,15 @@ div.square-button.big-button {
   font-size: 1rem;
   vertical-align: -15%;
 }
-.breadcrumbs.dark {
+.zdk-breadcrumbs.dark {
   background-color: #393832;
 }
-.breadcrumbs.dark > li:hover,
-.breadcrumbs.dark > li:last-child {
+.zdk-breadcrumbs.dark > li:hover,
+.zdk-breadcrumbs.dark > li:last-child {
   color: #ffffff;
 }
-.breadcrumbs.dark > li:before,
-.breadcrumbs.dark > li:after {
+.zdk-breadcrumbs.dark > li:before,
+.zdk-breadcrumbs.dark > li:after {
   background-color: #ffffff;
 }
 .breadcrumbs2 {
