@@ -78,7 +78,7 @@ $.widget("metro.calendar", {
         element.data("_storage", []);
         element.data("_exclude", []);
         element.data("_stored", []);
-        if (!element.hasClass('calendar')) { element.addClass('calendar'); }
+        if (!element.hasClass('zdk-calendar')) { element.addClass('zdk-calendar'); }
 
         var re, dates;
 

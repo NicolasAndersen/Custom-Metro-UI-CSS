@@ -84,7 +84,7 @@ $.widget("metro.datepicker", {
             'max-width': 220,
             'z-index': 1000
 
-        }).addClass('calendar calendar-dropdown').appendTo(element);
+        }).addClass('zdk-calendar calendar-dropdown').appendTo(element);
 
         //if (o.date != undefined) {
             //_calendar.data('date', o.date);

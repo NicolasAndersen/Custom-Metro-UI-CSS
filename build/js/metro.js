@@ -2900,7 +2900,7 @@ $.widget("metro.calendar", {
         element.data("_storage", []);
         element.data("_exclude", []);
         element.data("_stored", []);
-        if (!element.hasClass('calendar')) { element.addClass('calendar'); }
+        if (!element.hasClass('zdk-calendar')) { element.addClass('zdk-calendar'); }
 
         var re, dates;
 
@@ -4460,7 +4460,7 @@ $.widget("metro.datepicker", {
             'max-width': 220,
             'z-index': 1000
 
-        }).addClass('calendar calendar-dropdown').appendTo(element);
+        }).addClass('zdk-calendar calendar-dropdown').appendTo(element);
 
         //if (o.date != undefined) {
             //_calendar.data('date', o.date);

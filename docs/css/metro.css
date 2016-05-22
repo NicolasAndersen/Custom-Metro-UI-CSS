@@ -8909,118 +8909,118 @@ input[type="submit"].link:active {
     background-position: 0 0;
   }
 }
-.calendar {
+.zdk-calendar {
   min-width: 13.75rem;
   border: 1px #eeeeee solid;
   font-size: .75rem;
   padding: .3125rem;
   background-color: #ffffff;
 }
-.calendar .calendar-grid {
+.zdk-calendar .calendar-grid {
   margin: 0;
   padding: 0;
 }
-.calendar .calendar-row {
+.zdk-calendar .calendar-row {
   margin: 0 0 .3125rem;
   width: 100%;
 }
-.calendar .calendar-row:before,
-.calendar .calendar-row:after {
+.zdk-calendar .calendar-row:before,
+.zdk-calendar .calendar-row:after {
   display: table;
   content: "";
 }
-.calendar .calendar-row:after {
+.zdk-calendar .calendar-row:after {
   clear: both;
 }
-.calendar .calendar-row:last-child {
+.zdk-calendar .calendar-row:last-child {
   margin-bottom: 0;
 }
-.calendar .calendar-cell {
+.zdk-calendar .calendar-cell {
   width: 12.46201429%;
   margin: 0 0 0 2.12765%;
   display: block;
   float: left;
 }
-.calendar .calendar-cell:first-child {
+.zdk-calendar .calendar-cell:first-child {
   margin-left: 0;
 }
-.calendar .calendar-cell.sel-month {
+.zdk-calendar .calendar-cell.sel-month {
   width: 41.64134286%;
 }
-.calendar .calendar-cell.sel-year {
+.zdk-calendar .calendar-cell.sel-year {
   width: 48.936175%;
 }
-.calendar .calendar-cell.sel-plus,
-.calendar .calendar-cell.sel-minus {
+.zdk-calendar .calendar-cell.sel-plus,
+.zdk-calendar .calendar-cell.sel-minus {
   width: 23.4042625%;
 }
-.calendar .calendar-cell.month-cell,
-.calendar .calendar-cell.year-cell {
+.zdk-calendar .calendar-cell.month-cell,
+.zdk-calendar .calendar-cell.year-cell {
   width: 23.4042625%;
 }
-.calendar .calendar-actions .zdk-button {
+.zdk-calendar .calendar-actions .zdk-button {
   margin: .15625rem;
 }
-.calendar .day-of-week {
+.zdk-calendar .day-of-week {
   padding: .3125rem;
   cursor: default;
 }
-.calendar a {
+.zdk-calendar a {
   display: block;
   padding: .3125rem 0;
 }
-.calendar a:hover {
+.zdk-calendar a:hover {
   background-color: #75c7ee;
   color: #ffffff;
   border-radius: inherit;
 }
-.calendar .calendar-header {
+.zdk-calendar .calendar-header {
   background-color: #59cde2;
   color: #ffffff;
 }
-.calendar .calendar-header a {
+.zdk-calendar .calendar-header a {
   color: #ffffff;
   padding: .325rem;
 }
-.calendar .calendar-header a:hover {
+.zdk-calendar .calendar-header a:hover {
   background-color: #47b4e9;
   color: #ffffff;
 }
-.calendar .calendar-actions:before,
-.calendar .calendar-actions:after {
+.zdk-calendar .calendar-actions:before,
+.zdk-calendar .calendar-actions:after {
   display: table;
   content: "";
 }
-.calendar .calendar-actions:after {
+.zdk-calendar .calendar-actions:after {
   clear: both;
 }
-.calendar .today a {
+.zdk-calendar .today a {
   background-color: #60a917;
   color: #ffffff;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
-.calendar .day {
+.zdk-calendar .day {
   border: 1px #bcd9e2 solid;
   text-align: center;
 }
-.calendar .day a {
+.zdk-calendar .day a {
   display: block;
   position: relative;
   text-align: center;
 }
-.calendar .month,
-.calendar .year {
+.zdk-calendar .month,
+.zdk-calendar .year {
   border: 1px #bcd9e2 solid;
 }
-.calendar .month a,
-.calendar .year a {
+.zdk-calendar .month a,
+.zdk-calendar .year a {
   padding-top: 1.3125rem;
   padding-bottom: 1.3125rem;
 }
-.calendar .empty {
+.zdk-calendar .empty {
   cursor: default;
 }
-.calendar .other-day {
+.zdk-calendar .other-day {
   display: block;
   text-align: center;
   color: #999999;
@@ -9028,58 +9028,58 @@ input[type="submit"].link:active {
   background-color: #eeeeee;
   border: 1px #bcd9e2 solid;
 }
-.calendar .exclude {
+.zdk-calendar .exclude {
   background-color: #ce352c;
 }
-.calendar .exclude a {
+.zdk-calendar .exclude a {
   cursor: not-allowed;
   background-color: #ce352c;
   color: #ffffff;
 }
-.calendar .stored {
+.zdk-calendar .stored {
   background-color: #f472d0;
 }
-.calendar .stored a {
+.zdk-calendar .stored a {
   cursor: pointer;
   background-color: #f472d0;
   color: #ffffff;
 }
-.calendar .selected {
+.zdk-calendar .selected {
   background-color: #59cde2;
 }
-.calendar .selected a {
+.zdk-calendar .selected a {
   background-color: #59cde2;
   color: #ffffff;
 }
-.calendar.rounded button {
+.zdk-calendar.rounded button {
   border-radius: 0.3125rem;
 }
-.calendar.rounded .day,
-.calendar.rounded .month,
-.calendar.rounded .year,
-.calendar.rounded .other-day,
-.calendar.rounded .today,
-.calendar.rounded .calendar-header,
-.calendar.rounded .selected {
+.zdk-calendar.rounded .day,
+.zdk-calendar.rounded .month,
+.zdk-calendar.rounded .year,
+.zdk-calendar.rounded .other-day,
+.zdk-calendar.rounded .today,
+.zdk-calendar.rounded .calendar-header,
+.zdk-calendar.rounded .selected {
   border-radius: 0.3125rem;
 }
-.calendar.rounded .today a,
-.calendar.rounded .selected a,
-.calendar.rounded .exclude a {
+.zdk-calendar.rounded .today a,
+.zdk-calendar.rounded .selected a,
+.zdk-calendar.rounded .exclude a {
   border-radius: 0.3125rem;
 }
-.calendar.rounded .calendar-header a:hover {
+.zdk-calendar.rounded .calendar-header a:hover {
   border-radius: 0.3125rem;
 }
-.calendar.no-border .day,
-.calendar.no-border .month,
-.calendar.no-border .year,
-.calendar.no-border .other-day,
-.calendar.no-border .today,
-.calendar.no-border .calendar-header {
+.zdk-calendar.no-border .day,
+.zdk-calendar.no-border .month,
+.zdk-calendar.no-border .year,
+.zdk-calendar.no-border .other-day,
+.zdk-calendar.no-border .today,
+.zdk-calendar.no-border .calendar-header {
   border: 0;
 }
-.calendar.no-border .today a {
+.zdk-calendar.no-border .today a {
   border: 0;
 }
 .calendar-dropdown {
