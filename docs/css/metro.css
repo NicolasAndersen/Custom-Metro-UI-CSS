@@ -12886,7 +12886,7 @@ input[type="submit"].link:active {
 .listview-outlook .list-group .list-group-toggle:hover:before {
   border-bottom-color: #0067cb;
 }
-.charm {
+.zdk-charm {
   display: block;
   position: fixed;
   z-index: 1060;
@@ -12894,7 +12894,7 @@ input[type="submit"].link:active {
   color: #eeeeee;
   padding: .625rem;
 }
-.charm .charm-closer {
+.zdk-charm .charm-closer {
   position: absolute;
   height: 1rem;
   width: 1rem;
@@ -12910,7 +12910,7 @@ input[type="submit"].link:active {
   top: .25rem;
   right: .25rem;
 }
-.charm .charm-closer:after {
+.zdk-charm .charm-closer:after {
   content: '\D7';
   position: absolute;
   left: 50%;
@@ -12918,32 +12918,32 @@ input[type="submit"].link:active {
   margin-top: -0.65rem;
   margin-left: -0.35rem;
 }
-.charm .charm-closer:hover {
+.zdk-charm .charm-closer:hover {
   color: #ffffff;
 }
-.charm .charm-closer:active {
+.zdk-charm .charm-closer:active {
   color: #ffffff;
 }
-.charm.right-side {
+.zdk-charm.right-side {
   width: auto;
   right: 0;
   top: 0;
   left: auto;
   bottom: 0;
 }
-.charm.left-side {
+.zdk-charm.left-side {
   width: auto;
   left: 0;
   top: 0;
   bottom: 0;
 }
-.charm.top-side {
+.zdk-charm.top-side {
   height: auto;
   left: 0;
   right: 0;
   top: 0;
 }
-.charm.bottom-side {
+.zdk-charm.bottom-side {
   height: auto;
   left: 0;
   right: 0;

@@ -3838,7 +3838,7 @@ $.widget( "metro.charm" , {
     _createCharm: function(){
         var that = this, element = this.element, o = this.options;
 
-        element.addClass("charm").addClass(o.position+"-side").css({opacity: o.opacity}).hide();
+        element.addClass("zdk-charm").addClass(o.position+"-side").css({opacity: o.opacity}).hide();
 
         var closer = $("<span/>").addClass("charm-closer").appendTo(element);
         closer.on('click', function(){
