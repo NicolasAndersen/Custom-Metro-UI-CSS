@@ -242,7 +242,7 @@ input, select, textarea {
 }
 
 .input-control {
-	.button-group {
+	.zdk-button-group {
 		position: absolute;
 		right: 0;
 		top: 0;
@@ -260,7 +260,7 @@ input, select, textarea {
 }
 
 .input-control {
-	& > .helper-button, & > .button-group > .helper-button {
+	& > .helper-button, & > .zdk-button-group > .helper-button {
 		visibility: hidden;
 		margin: 0;
 		border: 0;
@@ -274,21 +274,21 @@ input, select, textarea {
 		margin: 2px 2px 0;
 	}
 
-	& > .button-group > .zdk-button.helper-button {
+	& > .zdk-button-group > .zdk-button.helper-button {
 		margin: 2px 0 ;
 		&:last-child {
 			margin-right: 2px ;
 		}
 	}
 
-	input:focus ~ .helper-button, input:focus ~ .button-group > .helper-button {
+	input:focus ~ .helper-button, input:focus ~ .zdk-button-group > .helper-button {
 		visibility: visible;
 	}
-	input ~ .helper-button:active, input ~ .button-group > .helper-button:active {
+	input ~ .helper-button:active, input ~ .zdk-button-group > .helper-button:active {
 		visibility: visible;
 	}
 
-	input:disabled ~ .helper-button, input:disabled ~ .button-group > .helper-button {
+	input:disabled ~ .helper-button, input:disabled ~ .zdk-button-group > .helper-button {
 		display: none ;
 	}
 }
@@ -812,7 +812,7 @@ input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .input-control {
-	&.button-group {
+	&.zdk-button-group {
 		&.one-state {
 
 		}

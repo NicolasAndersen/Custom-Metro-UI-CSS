@@ -54,7 +54,7 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-    .app-bar.fixed-top {
+    .zdk-app-bar.fixed-top {
         position: relative !important;
     }
     .page-content {

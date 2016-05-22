@@ -3,7 +3,7 @@
 @import (once) "scheme-builder";
 
 
-.app-bar {
+.zdk-app-bar {
     display: block;
     width: 100%;
     position: relative;
@@ -80,7 +80,7 @@
         padding: 0;
 
         & > li, & > li > a {
-            .app-bar > .app-bar-element;
+            .zdk-app-bar > .app-bar-element;
 
             &.dropdown-toggle {
                 padding-right: 1.5rem;
@@ -151,7 +151,7 @@
     }
 }
 
-.app-bar {
+.zdk-app-bar {
     .app-bar-drop-container {
         position: absolute;
         top: 100%;
@@ -191,7 +191,7 @@
 }
 
 // Form Elements
-.app-bar {
+.zdk-app-bar {
     .app-bar-element {
         .clear-float;
         & > .input-control.text, & > .input-control.password {
@@ -221,7 +221,7 @@
     }
 }
 
-.app-bar {
+.zdk-app-bar {
     &.drop-up {
         .app-bar-drop-container {
             top: auto;
@@ -258,7 +258,7 @@
     }
 }
 
-.app-bar {
+.zdk-app-bar {
     .app-bar-element, .app-bar-menu {
         .dropdown-toggle {
             &:before {
@@ -285,7 +285,7 @@
     }
 }
 
-.app-bar {
+.zdk-app-bar {
     &.fixed-top, &.fixed-bottom {
         z-index: @zindexFixedNavbar;
         position: fixed;
@@ -300,12 +300,12 @@
 }
 
 //flexible
-.app-bar {
+.zdk-app-bar {
 
     overflow: visible;
     height: auto;
     .app-bar-pullbutton {
-        .app-bar .app-bar-element;
+        .zdk-app-bar .app-bar-element;
         float: right;
     }
 
@@ -428,7 +428,7 @@
     }
 }
 
-.app-bar {
+.zdk-app-bar {
     & > .container {
         padding: 0 !important;
     }
